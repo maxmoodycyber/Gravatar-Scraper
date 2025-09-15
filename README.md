@@ -113,12 +113,6 @@ Found user: john (John Smith)
 - Randomizes request characteristics
 - Avoids predictable patterns
 
-## Data Processing
-
-### Related Tools
-- `combine_and_dedupe_v2.py`: Combines multiple CSV files and deduplicates results
-- `main_from_file.go`: Processes usernames from `foundusernames.txt`
-
 ### Post-Processing
 1. **Deduplication**: Remove duplicate entries across multiple runs
 2. **Email Enrichment**: Cross-reference with hash-to-email databases
